@@ -7,26 +7,13 @@
 #
 ## ------------------------------- Connectors -------------------------------
 #
-##  The list of connector clients/customized connectors configurations.
-##    Each object in the list requires `connector_id` and `service_type`.
-##    An example is:
-##    connectors:
-##      - connector_id: changeme # the ID of the connector.
-##        service_type: changeme # The service type of the connector.
-##        api_key: changeme # The Elasticsearch API key used to write data into the content index.
-#connectors: []
-#
-#
-##  The ID of the connector.
-##    (Deprecated. Configure the connector client in an object in the `connectors` list)
-#connector_id: null
-#
-#
-##  The service type of the connector.
-##    (Deprecated. Configure the connector client in an object in the `connectors` list)
-#service_type: null
-#
-#
+##  connector
+  connector_id: "Mk6mQ4sBezrCBhgAT3Ix"
+  service_type: "google_drive"
+  api_key: "TTA2bVE0c0JlenJDQmhnQWlISWo6dG9wS3hHTFdTcEdtVVdrcmN5UDUwUQ=="
+elasticsearch:
+  host: "https://2d67c95109654a08b761bcd0b88c4e8e.us-central1.gcp.cloud.es.io:443"
+  api_key: "TTA2bVE0c0JlenJDQmhnQWlISWo6dG9wS3hHTFdTcEdtVVdrcmN5UDUwUQ=="
 ## ------------------------------- Elasticsearch -------------------------------
 #
 ## The host of the Elasticsearch deployment.
